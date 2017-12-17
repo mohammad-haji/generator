@@ -19,5 +19,21 @@ module.exports = [
         title: "Factory",
         desc: "",
         key: "factory"
+    }, {
+        title: "Config",
+        desc: "",
+        key: "config"
+    }, {
+        title: "Controller",
+        desc: "",
+        key: "controller"
+    }, {
+        title: "Module",
+        desc: "",
+        key: "module"
+    }, {
+        title: "Route",
+        desc: "",
+        key: "route"
     }
-]
+];
