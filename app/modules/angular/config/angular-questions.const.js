@@ -4,7 +4,11 @@ module.exports = [
         name: "type-choice",
         type: "checkbox",
         message: 'What Angular template would you like to generate?',
-        choices: angularTypes.map((types) => types.key)
+        choices: angularTypes.map((types) => types.key),
+        validate: function (input) {
+            if (/^([A-Za-z\-\_\d])+$/.test(input)) return true;
+            else return 'Type may only include letters, numbers, underscores and hashes.';
+        }
     },{
         name: 'entity-name',
         type: 'input',
