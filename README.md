@@ -1,7 +1,28 @@
 # Welcome!
 
+# generate
+
 > Generator help developers quickly build beautiful, compelling apps.
 
+
+## Note
+
+## Prerequisites
+
+## Table of Contents
+
+## Installation
+```bash
+npm install -g generate
+```
+
+## Usage
+
+```bash
+generate
+```
+
+## Documentation
 
 ## Code of Conduct
 
